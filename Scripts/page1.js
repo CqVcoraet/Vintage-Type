@@ -39,6 +39,25 @@ title.style.fontWeight = "bold";
 title.innerHTML = "The Vintage Type";
 bg.append(title);
 
+// Vintage Button
+var vintageButton = document.createElement("button");
+vintageButton.style.fontFamily = "Satisfy";
+vintageButton.style.fontSize = "30px";
+vintageButton.style.position = "absolute";
+vintageButton.style.left = "50%";
+vintageButton.style.top = "46.5%";
+vintageButton.style.transform = "translate(-50%, -50%)";
+vintageButton.style.textAlign = "center";
+vintageButton.style.zIndex = "1";
+vintageButton.style.backgroundColor = "#C05F56";
+vintageButton.style.color = "#E2D7A7";
+vintageButton.style.border = "#C05F56 1px 1px 1px 1px";
+vintageButton.style.borderRadius = "10px";
+vintageButton.style.padding = "10px";
+vintageButton.style.cursor = "pointer";
+vintageButton.innerHTML = "Vintage Me";
+bg.append(vintageButton);
+
 // Body Text
 var bodyText = document.createElement("div");
 bodyText.style.fontFamily = "Satisfy";
@@ -46,7 +65,7 @@ bodyText.style.fontSize = "30px";
 bodyText.style.position = "absolute";
 bodyText.style.width = "1100px"
 bodyText.style.left = "50%";
-bodyText.style.top = "45%";
+bodyText.style.top = "50%";
 bodyText.style.transform = "translateX(-50%)";
 bodyText.style.textAlign = "center";
 bodyText.style.color = "#764838";
